@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#keret{
+    width: 50%;
+    height: 300px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    background-color: rgb(192, 192, 192);
+    padding: 15px;
+    box-shadow: 3px 3px 10px 2px black;
+}
+
+#keret *{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+input[type="range"]{
+    width: 500px;
+    margin-left: 30px;
+}
+
+span{
+    padding-left: 10px;
+}
+
+#rb{
+    margin-top: 30px;
+}
